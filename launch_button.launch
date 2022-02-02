@@ -1,0 +1,5 @@
+<launch>
+<node name ="client_node" pkg="button_tester" type="button_tester.py" output="screen"></node>
+<node name ="service_node" pkg="button_tester" type="service_file.py" output="screen"></node>
+
+</launch>
